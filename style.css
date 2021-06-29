@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10%;
+}
+
+nav > span {
+    margin: 15px 15px 0 15px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: gray;
+}
+
+.top-banner {
+    height: 1320px;
+}
+
+.text-highlight {
+    color: #FF8361;
+}
+
+.half-width img {
+    width: 85%;
+}
+
+.half-width {
+    width: 37%;
+    float: left;
+    margin-left: 10%;
+}
+
+.text-area {
+    margin-top: 10%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(360deg, #FF8063, #F46060);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+.latest-work-area {
+    height: 750px;
+    padding-top: 80px;
+    background-color:#fafafa;
+    text-align: center;
+}
+
+.latest-work-area img {
+    width: 340px;
+    height: 220px;
+}
+
+.latest {
+    margin-top: 6%;
+}
+
+.latest-work {
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 40px lightgray;
+}
+
+.latest-work:hover {
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.bottom-area {
+    height: 700px;
+}
+
+.work-inquiry-area > img {
+    width: 100%;
+}
+
+.work-inquiry-area {
+    width: 65%;
+    padding-top: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.work-inquiry {
+    bottom: 10%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.work-inquiry > h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.connected-area {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.connected-area > div > p {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.connected-area > div > h3 {
+    font-size: 40px;
+    margin-top: -5px;
+}
+
+.connected-area img {
+    width: 40px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 13px;
+}
